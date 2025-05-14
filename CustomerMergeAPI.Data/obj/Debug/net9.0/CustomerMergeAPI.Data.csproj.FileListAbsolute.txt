@@ -1,0 +1,15 @@
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\bin\Debug\net9.0\CustomerMergeAPI.Data.deps.json
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\bin\Debug\net9.0\CustomerMergeAPI.Data.dll
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\bin\Debug\net9.0\CustomerMergeAPI.Data.pdb
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\bin\Debug\net9.0\CustomerMergeAPI.Domain.dll
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\bin\Debug\net9.0\CustomerMergeAPI.Domain.pdb
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\CustomerMergeAPI.Data.csproj.AssemblyReference.cache
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\CustomerMergeAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\CustomerMergeAPI.Data.AssemblyInfoInputs.cache
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\CustomerMergeAPI.Data.AssemblyInfo.cs
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\CustomerMergeAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\Customer.F2293DED.Up2Date
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\CustomerMergeAPI.Data.dll
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\refint\CustomerMergeAPI.Data.dll
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\CustomerMergeAPI.Data.pdb
+C:\Users\Dimantha\Documents\Code\CustomerMergeAPI.Data\obj\Debug\net9.0\ref\CustomerMergeAPI.Data.dll
