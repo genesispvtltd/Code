@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Dimantha\\Documents\\Code\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|c:\\users\\dimantha\\documents\\code\\customermergeapi.webapi\\validators\\createuserrequestvalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|solutionrelative:customermergeapi.webapi\\validators\\createuserrequestvalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|c:\\users\\dimantha\\documents\\code\\customermergeapi.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|solutionrelative:customermergeapi.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|solutionrelative:customermergeapi.webapi\\validators\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|c:\\users\\dimantha\\documents\\code\\customermergeapi.webapi\\validators\\createuserrequestvalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|solutionrelative:customermergeapi.webapi\\validators\\createuserrequestvalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|c:\\users\\dimantha\\documents\\code\\customermergeapi.webapi\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E738D3B8-C3C3-28E4-3DED-3E75338B005B}|CustomerMergeAPI.WebApi\\CustomerMergeAPI.WebApi.csproj|solutionrelative:customermergeapi.webapi\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -162,19 +162,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginRequestQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\LoginRequestQueryHandler.cs",
-              "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Handlers\\LoginRequestQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\LoginRequestQueryHandler.cs",
-              "RelativeToolTip": "CustomerMergeAPI.WebApi\\Handlers\\LoginRequestQueryHandler.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwB4AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:33:57.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CreateUserHandler.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\CreateUserHandler.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Handlers\\CreateUserHandler.cs",
@@ -186,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MergeGroupHandler.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\MergeGroupHandler.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Handlers\\MergeGroupHandler.cs",
@@ -198,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UpdateCustomerCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\UpdateCustomerCommandHandler.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Handlers\\UpdateCustomerCommandHandler.cs",
@@ -206,25 +194,48 @@
               "RelativeToolTip": "CustomerMergeAPI.WebApi\\Handlers\\UpdateCustomerCommandHandler.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAowBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:34:09.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:34:09.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "CustomerMergeAPI.WebApi\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEwAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:33:21.657Z",
+              "WhenOpened": "2025-05-14T08:33:21.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateUserRequestValidator .cs",
+              "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Validators\\CreateUserRequestValidator .cs",
+              "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Validators\\CreateUserRequestValidator .cs",
+              "ToolTip": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Validators\\CreateUserRequestValidator .cs",
+              "RelativeToolTip": "CustomerMergeAPI.WebApi\\Validators\\CreateUserRequestValidator .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:34:22.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "LoginRequestQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\LoginRequestQueryHandler.cs",
+              "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Handlers\\LoginRequestQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\LoginRequestQueryHandler.cs",
+              "RelativeToolTip": "CustomerMergeAPI.WebApi\\Handlers\\LoginRequestQueryHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwB4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:33:57.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GetResolvedQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\GetResolvedQueryHandler.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Handlers\\GetResolvedQueryHandler.cs",
@@ -236,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Domain\\UserManager.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Domain\\UserManager.cs",
@@ -248,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IUserManager.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Domain\\Interfaces\\IUserManager.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Domain\\Interfaces\\IUserManager.cs",
@@ -260,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Data\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Data\\Repositories\\UserRepository.cs",
@@ -272,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Data\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Data\\Repositories\\CustomerRepository.cs",
@@ -284,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Domain\\Interfaces\\IUserRepository.cs",
@@ -296,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Domain\\Interfaces\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Domain\\Interfaces\\ICustomerRepository.cs",
@@ -308,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CustomerManager.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Domain\\CustomerManager.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Domain\\CustomerManager.cs",
@@ -320,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ICustomerManager.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Domain\\Interfaces\\ICustomerManager.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Domain\\Interfaces\\ICustomerManager.cs",
@@ -332,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GetDuplicatesQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Handlers\\GetDuplicatesQueryHandler.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Handlers\\GetDuplicatesQueryHandler.cs",
@@ -344,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Controllers\\AuthController.cs",
@@ -356,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Controllers\\UsersController.cs",
@@ -368,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UpdateCustomerCommand.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.Domain\\Commands\\UpdateCustomerCommand.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.Domain\\Commands\\UpdateCustomerCommand.cs",
@@ -380,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Program.cs",
@@ -392,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "MergeRequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Validators\\MergeRequestValidator.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Validators\\MergeRequestValidator.cs",
@@ -404,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "MergeGroupCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Validators\\MergeGroupCommandValidator.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Validators\\MergeGroupCommandValidator.cs",
@@ -416,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LoginRequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Validators\\LoginRequestValidator.cs",
               "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Validators\\LoginRequestValidator.cs",
@@ -425,18 +436,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T08:34:28.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CreateUserRequestValidator .cs",
-              "DocumentMoniker": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Validators\\CreateUserRequestValidator .cs",
-              "RelativeDocumentMoniker": "CustomerMergeAPI.WebApi\\Validators\\CreateUserRequestValidator .cs",
-              "ToolTip": "C:\\Users\\Dimantha\\Documents\\Code\\CustomerMergeAPI.WebApi\\Validators\\CreateUserRequestValidator .cs",
-              "RelativeToolTip": "CustomerMergeAPI.WebApi\\Validators\\CreateUserRequestValidator .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:34:22.731Z"
             },
             {
               "$type": "Document",
@@ -605,6 +604,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T08:30:36.373Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

@@ -23,11 +23,11 @@ namespace CustomerMergeAPI.Tests.Handlers
         public async Task Handle_ValidCustomer_CallsUpdateCustomerAsync()
         {
            
-            var customer = new Customer { CustCode = "C001", Name = "John" };
+            var customer = new Customer { CustCode = "C001"};
             var request = new UpdateCustomerCommand { Customer = customer };
             var cancellationToken = CancellationToken.None;
 
-            _mockManager.Setup(m => m.UpdateCustomerAsync(customer,"John", cancellationToken)).Returns(Task.CompletedTask).Verifiable();
+            _mockManager.Setup(m => m.UpdateCustomerAsync(customer,null, cancellationToken)).Returns(Task.CompletedTask).Verifiable();
 
             var result = await _handler.Handle(request, cancellationToken);
 

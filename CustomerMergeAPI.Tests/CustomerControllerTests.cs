@@ -17,12 +17,13 @@ namespace CustomerMergeAPI.Tests.Controllers
     {
         private Mock<IMediator> _mockMediator;
         private CustomerController _controller;
-        private readonly Mock<ILogger<CustomerController>> _mockLogger;
+        private Mock<ILogger<CustomerController>> _mockLogger;
 
         [TestInitialize]
         public void Setup()
         {
             _mockMediator = new Mock<IMediator>();
+            _mockLogger = new Mock<ILogger<CustomerController>>();
             _controller = new CustomerController(_mockMediator.Object, _mockLogger.Object);
 
             var user = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
