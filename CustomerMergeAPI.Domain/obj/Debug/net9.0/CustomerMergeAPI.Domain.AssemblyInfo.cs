@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomerMergeAPI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf64f7aa71e93bbf1cb8f69e351dc81a277262ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf833515989778e23ea19a3b586d5b5b7d4d419a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomerMergeAPI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomerMergeAPI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

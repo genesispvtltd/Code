@@ -27,18 +27,23 @@ public class CustomerRepository : ICustomerRepository
         using var conn = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
         await conn.OpenAsync(cancellationToken);
         var sql = @"
-       WITH UnmergedGroupKeys AS (
+    WITH UnmergedGroupKeys AS (
     SELECT GroupKey
     FROM Customers
     WHERE ParentCustCode IS NULL
     GROUP BY GroupKey
     HAVING COUNT(*) > 1
 ),
+MatchingGroups AS (
+    SELECT DISTINCT GroupKey
+    FROM Customers
+    WHERE GroupKey IN (SELECT GroupKey FROM UnmergedGroupKeys)
+      AND (@Search IS NULL OR Name LIKE '%' + @Search + '%')
+),
 Grouped AS (
     SELECT *, ROW_NUMBER() OVER (PARTITION BY GroupKey ORDER BY CustCode) AS rn
     FROM Customers
-    WHERE GroupKey IN (SELECT GroupKey FROM UnmergedGroupKeys)
-    AND (@Search IS NULL OR Name LIKE '%' + @Search + '%')
+    WHERE GroupKey IN (SELECT GroupKey FROM MatchingGroups)
 ),
 PagedKeys AS (
     SELECT DISTINCT GroupKey
